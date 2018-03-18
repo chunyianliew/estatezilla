@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
 	<head>
+		<!-- Google Analytics Code -->
+		{!! $settings['analytics_code'] !!}
+	
 		<!-- Basic Page Needs
 		================================================== -->
 		<meta charset="utf-8" />
