@@ -13,7 +13,7 @@
 								
 								<div class="form-group">
 							    	<label><?= __('Buy/Rent') ?></label>
-									<?= Form::select('listing_type', ['sale' => 'Sale', 'rent' => 'Rent', '' => 'All'], Input::get('listing_type'),array('class' => 'form-control')); ?>
+									<?= Form::select('listing_type', ['sale' => __('Sale'), 'rent' => __('Rent'), '' => __('All')], Input::get('listing_type'),array('class' => 'form-control')); ?>
 
 								</div>
 							</div>
