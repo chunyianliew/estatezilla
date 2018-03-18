@@ -63,7 +63,7 @@
 							<a style="color: #004889; font-size: 15px" href="<?= $property->url() ?>">
 								<strong>{{ $property->title }}</strong>
 							</a>
-							<p>{{ $property->displayable_address }}{{ $property->has_parking }}</p>
+							<p>{{ $property->displayable_address }}</p>
 						</div>
 					</div>
 				</div>
